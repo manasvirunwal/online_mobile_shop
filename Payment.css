@@ -1,0 +1,74 @@
+@charset "ISO-8859-1";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+	background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+
+.text {
+	text-align: center;
+	font-size: 300%;
+	text-decoration: aliceblue;
+	color: aliceblue;
+}
+
+.pay-now-btn {
+	cursor: pointer;
+	color: #fff;
+	height: 50px;
+	width: 290px;
+	border: none;
+	margin: 5px 30px;
+	background: linear-gradient(-135deg, #71b7e6, #9b59b6);;
+	position: relative;
+}
+
+.card-details {
+	background: #400040;
+	color: rgb(225, 223, 233);
+	margin: 10px 30px;
+	padding: 10px;
+}
+
+.card-details p {
+	font-size: 15px;
+}
+
+.card-details label {
+	font-size: 15px;
+	line-height: 35px;
+}
+
+.submit-now-btn {
+	cursor: pointer;
+	color: #fff;
+	height: 30px;
+	width: 240px;
+	border: 5px;
+	margin: 5px 30px;
+	background: linear-gradient(-135deg, #71b7e6, #9b59b6);
+	position: relative;
+}
+
+.user-details .input-box input {
+	font-size: 13px;
+	line-height: 20px;
+	border: none;
+	border-bottom-width: 0px;
+	transition: all 0.3s ease;
+	position: relative;
+}
+
+.user-details .input-box input:focus, .user-details .input-box input:valid
+	{
+	border-color: #00ff00;
+}

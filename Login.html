@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>LOGIN PAGE</title>
+<link rel="stylesheet" href="style.css">
+<script type="text/javascript">
+	function display() {
+		
+	var user=document.getElementById("username").value;
+	var pass=document.getElementById("password").value;
+	alert("username: " + user + "\npassword:" + pass);
+		if(user=="admin" && pass=="admin"){
+		alert("welcome admin"); 
+			alert("invalid credentials...");}
+</script>
+
+
+</head>
+<body>
+	<p id="para1">
+		LOgin using your user name and password <br> the data sent by you
+		is checked in the backend with the database<br>
+	</p>
+	<p id="para2">this is another paragraph</p>
+	<center>
+		<audio src="fugly.mp3" controls="controls">
+		</audio>
+		<br>
+		<video src="VID_184441224_094158_579.mp4" controls="controls"
+			height="300px" ,width="300px"></video>
+		<br> <br> <span id="span1">
+			<h2>Enter your credentials:</h2>
+			<form action="Products.html">
+				<table border=3>
+					<tr>
+						<td>username</td>
+						<td><input type="text" id="username"
+							style="border-color: green; border-radius: 5px"></td>
+
+					</tr>
+					<tr>
+						<td>password</td>
+						<td><input type="password" id="password"
+							style="border-color: green; border-radius: 5px"></td>
+					</tr>
+				</table>
+				<br> <input type="submit" onClick="display()">
+			</form>
+		</span>
+	</center>
+
+</body>
+
+</html>
